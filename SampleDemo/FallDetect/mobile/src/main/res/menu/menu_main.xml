@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_ken"
+        android:icon="@drawable/ic_action_hand"
+        android:orderInCategory="0"
+        android:title="@string/action_ken"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_bluetooth"
+        android:icon="@drawable/bluetooth_connected"
+        android:orderInCategory="0"
+        android:title="Bluetooth"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="1"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="2"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+
+</menu>

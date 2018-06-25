@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Fall Detection v2</string>
+    <string name="hello_world">Hello</string>
+    <string name="start">开始检测</string>
+    <string name="start_walk">开始步行</string>
+    <string name="stop_walk">结束步行</string>
+    <string name="start_fall">开始跌倒</string>
+    <string name="stop_fall">结束跌倒</string>
+    <string name="start_run">开始跑步</string>
+    <string name="stop_run">结束跑步</string>
+    <string name="end">结束检测</string>
+    <string name="action_advanced">Advanced</string>
+    <string name="action_advanced_remove">Remove advanced</string>
+    <string name="action_help">Help</string>
+    <string name="action_about">About</string>
+    <string name="action_ken">Next of kin</string
+        >
+    <string name="advanced_activity">Advanced</string>
+    <string name="advanced_became">Advanced mode enabled. Access it using the overflow menu on the top right.</string>
+    <string name="advanced_away_from">You\'re %d steps away from advanced mode.</string>
+    <string name="advanced_removed">Advanced mode removed.</string>
+    <string name="advanced_activity_detection_switch">Alarm</string>
+
+    <string name="fragment_graph">Graph</string>
+    <string name="fragment_graph_zoom_in">Zoom in</string>
+    <string name="fragment_graph_zoom_out">Zoom out</string>
+    <string name="fragment_graph_zoom_reset">Reset zoom</string>
+
+    <string name="fragment_algorithm">Algorithm</string>
+    <string name="fragment_thresholds">Thresholds</string>
+
+    <string name="fragment_thresholds_phone_total_acc">Phone total accelerometer</string>
+    <string name="fragment_thresholds_phone_vertical_acc">Phone vertical accelerometer</string>
+    <string name="fragment_thresholds_phone_vertical_total_acc">Phone vertical/total accelerometer</string>
+    <string name="fragment_thresholds_phone_pre_impact">Phone pre-impact</string>
+    <string name="fragment_thresholds_phone_impact">Phone impact</string>
+    <string name="fragment_thresholds_phone_avg_post_impact">Phone average post-impact</string>
+
+    <string name="fragment_thresholds_watch_fallindex_impact">Watch FallIndex impact</string>
+    <string name="fragment_thresholds_watch_fallindex_post_impact">Watch FallIndex post-impact</string>
+    <string name="fragment_thresholds_watch_fall_duration">Watch fall duration</string>
+
+    <string name="fragment_record">Record</string>
+    <string name="fragment_record_history">Record history</string>
+
+    <string name="fragment_alarm_algorithm">Algorithm: %s</string>
+    <string name="fragment_alarm_start_button">Start alarm</string>
+
+    <string name="alarm_progress_disabled">No\nalarm</string>
+    <string name="alarm_progress_running">Press to\nstop alarm</string>
+    <string name="alarm_progress_cancelled">Alarm \nstopped</string>
+    <string name="alarm_progress_done">Alarm is\nsent</string>
+
+    <string name="wizard_activity">Wizard</string>
+    <string name="wizard_intro_welcome_text">Welcome to\nFall Alarm</string>
+    <string name="wizard_intro_welcome_sub_text">We\'re here to help you feel safe and protected.</string>
+    <string name="wizard_notification_header">Always turned on</string>
+    <string name="wizard_notification_explanation_text">This icon means that fall detection is turned on.</string>
+    <string name="wizard_alarm_header">We help you</string>
+    <string name="wizard_alarm_explanation_text">If you\'re unlucky enough to have fallen, an alarm will notify your caretaker and next of kin.</string>
+    <string name="wizard_false_alarm_header">False alarm</string>
+    <string name="wizard_false_alarm_explanation_text">If you are okay after a fall, you can stop the alarm within 1 min.</string>
+    <string name="wizard_next_of_kin_header">Next of kin</string>
+    <string name="wizard_next_of_kin_name">Name</string>
+    <string name="wizard_next_of_kin_name_not_empty">Must have a name</string>
+    <string name="wizard_next_of_kin_telephone">Telephone</string>
+    <string name="wizard_next_of_kin_telephone_not_empty">Must have a phone number</string>
+
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="skip">Skip</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+
+    <string name="record_test_id">Test ID</string>
+    <string name="record_server_ip">Server IP</string>
+    <string name="record_server_port">Server PORT</string>
+    <string name="record_header">Record sensor data</string>
+    <string name="record_sub_header">Alarm will be deactivated when recording starts. You will need to reactivate it manually afterwards if needed.</string>
+
+    <string name="watch_notification_title">Fall Alarm</string>
+    <string name="watch_notification_text">Enabled</string>
+
+    <string name="phone_notification_detecting">Detecting</string>
+    <string name="phone_notification_waiting">Waiting to send alarm…</string>
+    <string name="phone_notification_sent">Alarm sent</string>
+    <string name="phone_notification_cancelled">Alarm cancelled</string>
+
+    <string name="about_header">Project description</string>
+    <string name="about_project_description">The main theme of this project is to create an open source fall detection system using an Android phone and watch.
+        We have made fall detection more reliable using Threshold and Pattern Recognition algorithms on both devices.
+        Other goals include the use of multiple algorithms and refine the detection system.
+        The application is developed mainly for Samsung Galaxy S3 with Android 4.3 and the LG G Watch R with Android 5.0.</string>
+    <string name="about_wiki_link">See the projects <a href="https://github.com/iverasp/project_gravity/wiki">wiki</a> for more information</string>
+    <string name="about_github_link">See the projects <a href="https://github.com/iverasp/project_gravity">GitHub repo</a></string>
+    <string name="about_libraries_link">See  <a href="https://github.com/iverasp/project_gravity/wiki/Chapter-7:-Libraries">libraries used</a></string>
+
+</resources>

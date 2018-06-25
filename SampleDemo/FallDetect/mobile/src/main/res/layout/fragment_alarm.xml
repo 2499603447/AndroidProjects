@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <sintef.android.controller.AlarmView
+        android:id="@+id/alarm_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/alarm_advanced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/alarm_algorithm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_alarm_algorithm"
+            android:textColor="@color/black"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/alarm_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fragment_alarm_start_button"/>
+
+    </LinearLayout>
+
+</FrameLayout>
