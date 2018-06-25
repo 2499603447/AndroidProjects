@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ServiceDemo</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="btnA_BindService">A Bind Service</string>
+    <string name="btnA_UnbindService">A Unbind Service</string>
+    <string name="btnA_StartActivityB">A Start Activity B</string>
+    <string name="btnA_Finish">A Finish</string>
+    <string name="btnB_BindService">B Bind Service</string>
+    <string name="btnB_UnbindService">B Unbind Service</string>
+    <string name="btnB_Finish">B Finish</string>
+</resources>
