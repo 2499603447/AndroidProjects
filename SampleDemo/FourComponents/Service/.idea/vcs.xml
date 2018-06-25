@@ -2,5 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="C:\Dezhou\shareFiles\workspace\AndroidProjects\SampleDemo\FourComponents\Service\AndroidProjects" vcs="Git" />
+    <mapping directory="C:\Dezhou\shareFiles\workspace\AndroidProjects\SampleDemo\FourComponents\Service\Service" vcs="Git" />
   </component>
 </project>
